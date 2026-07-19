@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMatch - Catálogo de Vehículos</title>
+    <!-- LIBRERÍAS INTEGRADAS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header-fixed">
+        <nav class="navbar">
+            <div id="logo-brand"><i class="fa-solid fa-car-side"></i> AutoMatch</div>
+            <!-- MENÚ ACTUALIZADO CON 5 OPCIONES -->
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="vehiculos" class="content-section hero-banner-mini" data-aos="fade-down">
+            <h2>Nuestros Vehículos Destacados</h2>
+            <p class="section-subtitle" style="color: white;">Modelos del año con la más alta tecnología y rendimiento.</p>
+        </section>
+
+        <section id="marcas" class="content-section bg-alt" data-aos="fade-up">
+            <!-- Bloque Chevrolet -->
+            <div class="brand-block">
+                <h3 class="brand-title">CHEVROLET</h3>
+                <div class="cards-container">
+                    <div class="car-card">
+                        <img src="img/onix.png" alt="Chevrolet Onix" class="car-img">
+                        <h4>Chevrolet Onix</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/tracker.avif" alt="Chevrolet Tracker" class="car-img">
+                        <h4>Chevrolet Tracker</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/Captiva.avif" alt="Chevrolet Captiva" class="car-img">
+                        <h4>Chevrolet Captiva</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque Kia -->
+            <div class="brand-block" data-aos="fade-up">
+                <h3 class="brand-title">KIA</h3>
+                <div class="cards-container">
+                    <div class="car-card">
+                        <img src="img/Picanto.jpg" alt="Kia Picanto" class="car-img">
+                        <h4>Kia Picanto</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/Soluto.webp" alt="Kia Soluto" class="car-img">
+                        <h4>Kia Soluto</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/Sportage.png" alt="Kia Sportage" class="car-img">
+                        <h4>Kia Sportage</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloque Suzuki -->
+            <div class="brand-block" data-aos="fade-up">
+                <h3 class="brand-title">SUZUKI</h3>
+                <div class="cards-container">
+                    <div class="car-card">
+                        <img src="img/Swift.png" alt="Suzuki Swift" class="car-img">
+                        <h4>Suzuki Swift</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/Vitara.png" alt="Suzuki Vitara" class="car-img">
+                        <h4>Suzuki Vitara</h4>
+                    </div>
+                    <div class="car-card">
+                        <img src="img/Jimny.jpg" alt="Suzuki Jimny" class="car-img">
+                        <h4>Suzuki Jimny</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 AutoMatch. Todos los derechos reservados. Evaluación Final.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
